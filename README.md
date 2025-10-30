@@ -38,28 +38,28 @@ I use Powery Query to check missing values and remove duplicate values
    
    2.1. customer_type
   
-      There are 3 null values. In this column, I will check if the "member" value or the "normal" value appears more often to place the null value.
+  There are 3 null values. In this column, I will check if the "member" value or the "normal" value appears more often to place the null value.
       
-      <img width="167" height="92" alt="image" src="https://github.com/user-attachments/assets/b6064099-c7d5-4053-8b08-ba35f1b3d932" />
+  <img width="167" height="92" alt="image" src="https://github.com/user-attachments/assets/b6064099-c7d5-4053-8b08-ba35f1b3d932" />
 
    2.2. product_category
   
-      There are 6 null values.
+  There are 6 null values.
       
-       <img width="173" height="164" alt="image" src="https://github.com/user-attachments/assets/90b8f3f3-4a83-4ffe-8650-639b249adad6" />
+  <img width="173" height="164" alt="image" src="https://github.com/user-attachments/assets/90b8f3f3-4a83-4ffe-8650-639b249adad6" />
 
-      In this column, I will create a new sheet "Mapping", which includes 2 columns: "product_name" and "product_category". After that, I use Power Query to merge the Sheet "Sale" with the sheet "Mapping" through the primary key "product_name" => the null value will be replaced by the corresponding value.
+  In this column, I will create a new sheet "Mapping", which includes 2 columns: "product_name" and "product_category". After that, I use Power Query to merge the Sheet "Sale" with the sheet "Mapping" through the primary key "product_name" => the null value will be       replaced by the corresponding value.
 
-        <img width="303" height="153" alt="image" src="https://github.com/user-attachments/assets/f1899559-aab9-4e09-94ae-bc621efd4ec9" />
-        <img width="1081" height="377" alt="image" src="https://github.com/user-attachments/assets/50f53416-fde5-4118-acf5-bd02e55db1b2" />
+  <img width="303" height="153" alt="image" src="https://github.com/user-attachments/assets/f1899559-aab9-4e09-94ae-bc621efd4ec9" />
+  <img width="1081" height="377" alt="image" src="https://github.com/user-attachments/assets/50f53416-fde5-4118-acf5-bd02e55db1b2" />
 
 
 
    2.3. quantity
   
-      There are 3 null values. In this column, I use the median function (median = 11 )to fill in these 2 cells.
+  There are 3 null values. In this column, I use the median function (median = 11 )to fill in these 2 cells.
       
-        <img width="162" height="90" alt="image" src="https://github.com/user-attachments/assets/b6ab2b84-0acd-4b11-a74b-28a5888564ab" />
+   <img width="162" height="90" alt="image" src="https://github.com/user-attachments/assets/b6ab2b84-0acd-4b11-a74b-28a5888564ab" />
         
 
    Data cleaning was conducted using Power Query in Microsoft Excel to ensure the dataset’s accuracy, completeness, and consistency before performing any analysis. The original dataset contained 12 missing values and 3 duplicate rows. Power Query provided a transparent and traceable workflow that effectively addressed these data quality issues.
@@ -70,7 +70,7 @@ I use Powery Query to check missing values and remove duplicate values
 
   3. Descriptive Statistics
 
-    <img width="480" height="323" alt="image" src="https://github.com/user-attachments/assets/b3823151-7c52-4c9a-9ebe-81f62fb44c3d" />
+  <img width="480" height="323" alt="image" src="https://github.com/user-attachments/assets/b3823151-7c52-4c9a-9ebe-81f62fb44c3d" />
 
 
   For the Quantity variable, the data shows that customers purchased an average of 10.62 items per transaction, with a median of 11. This means that most customers typically bought around ten to eleven items each time they visited the store. The smallest transaction included 1 item, while the largest reached 20 items, showing clear variation in shopping size. The standard deviation of 5.99 indicates moderate variability in purchase quantities, suggesting that some customers buy far more items than others. The skewness value (-0.07), which is close to zero, shows that the quantity distribution is fairly balanced between small and large purchases.
