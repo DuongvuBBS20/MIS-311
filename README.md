@@ -87,5 +87,6 @@ Chart 2: Number of Transactions by Product Category
 
 <img width="479" height="306" alt="image" src="https://github.com/user-attachments/assets/fb0eb01d-0919-4be3-923a-00798667767c" />
 
-  The chart displays the number of transactions across different product categories. Fruits and Household items had the highest sales with 58 and 57 transactions, while Personal Care products had the lowest with 42 transactions. This suggests that customers purchase essential items more frequently than personal care products.
+  The chart shows the number of sales transactions across different product categories. Fruits recorded the highest number of sales (58), followed closely by Household items (57) and Beverages (49). In contrast, Personal Care products had the fewest transactions (42).
+This pattern suggests that everyday consumer goods such as fruits and household products, are the most frequently purchased items in the supermarket.
 
