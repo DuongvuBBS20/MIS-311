@@ -36,13 +36,13 @@ MIS311 – Data Analysis Project
 
 I use Powery Query to check missing values and remove duplicate values
    
-   1. customer_type
+   2.1. customer_type
   
       There are 3 null values. In this column, I will check if the "member" value or the "normal" value appears more often to place the null value.
       
       <img width="167" height="92" alt="image" src="https://github.com/user-attachments/assets/b6064099-c7d5-4053-8b08-ba35f1b3d932" />
 
-   2. product_category
+   2.2. product_category
   
       There are 6 null values.
       
@@ -55,9 +55,9 @@ I use Powery Query to check missing values and remove duplicate values
 
 
 
-   3. quantity
+   2.3. quantity
   
-      There are 3 null values. In this column, I use the median function to fill in these 2 cells.
+      There are 3 null values. In this column, I use the median function (median = 11 )to fill in these 2 cells.
       
         <img width="162" height="90" alt="image" src="https://github.com/user-attachments/assets/b6ab2b84-0acd-4b11-a74b-28a5888564ab" />
         
@@ -67,3 +67,13 @@ I use Powery Query to check missing values and remove duplicate values
   First, duplicate records were removed using the Remove Duplicates function, ensuring that each transaction represented a unique sale. Missing numerical values in the quantity column were imputed with the median value (11) to preserve the natural distribution of sales quantities. Missing categorical values in the customer_type column were replaced with the most frequent category (“Member”) to maintain consistency in customer classification. Missing values in the product_category column were accurately completed using a mapping table that linked each product name to its correct category, ensuring categorical consistency across the dataset.
     
   All cleaning steps were automatically documented in Power Query’s Applied Steps pane, providing a transparent audit trail of the transformations. After cleaning, the dataset contained no missing or duplicate entries.
+
+  3. Descriptive Statistics
+
+    <img width="480" height="323" alt="image" src="https://github.com/user-attachments/assets/b3823151-7c52-4c9a-9ebe-81f62fb44c3d" />
+
+
+  For the Quantity variable, the data shows that customers purchased an average of 10.62 items per transaction, with a median of 11. This means that most customers typically bought around ten to eleven items each time they visited the store. The smallest transaction included 1 item, while the largest reached 20 items, showing clear variation in shopping size. The standard deviation of 5.99 indicates moderate variability in purchase quantities, suggesting that some customers buy far more items than others. The skewness value (-0.07), which is close to zero, shows that the quantity distribution is fairly balanced between small and large purchases.
+     
+  For the Total Price variable, the average sales value per transaction was $124.19, and the median was $95.43. This result shows that half of all transactions were below $95 and the other half were above it. The smallest transaction value was $2.18, while the largest reached $427.14, revealing a wide range of customer spending levels. The standard deviation of 102.98 highlights significant variation in sales amounts. The positive skewness (0.91) suggests that a few high-value purchases increased the overall average, meaning that while most transactions were moderate, a small number of expensive purchases significantly boosted total revenue.
+
