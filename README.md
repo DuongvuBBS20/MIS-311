@@ -77,3 +77,15 @@ I use Powery Query to check missing values and remove duplicate values
      
   For the Total Price variable, the average sales value per transaction was $124.19, and the median was $95.43. This result shows that half of all transactions were below $95 and the other half were above it. The smallest transaction value was $2.18, while the largest reached $427.14, revealing a wide range of customer spending levels. The standard deviation of 102.98 highlights significant variation in sales amounts. The positive skewness (0.91) suggests that a few high-value purchases increased the overall average, meaning that while most transactions were moderate, a small number of expensive purchases significantly boosted total revenue.
 
+Chart 1: Number of Transactions by Customer Type
+
+<img width="490" height="314" alt="image" src="https://github.com/user-attachments/assets/0f17eb72-402e-48d3-99cd-a0998dd8ccee" />
+
+  The chart shows the number of sales transactions made by each customer type. Members recorded 134 transactions, higher than Normal customers with 116 transactions. This indicates that members contribute more actively to the supermarket’s overall sales volume.
+
+Chart 2: Number of Transactions by Product Category
+
+<img width="479" height="306" alt="image" src="https://github.com/user-attachments/assets/fb0eb01d-0919-4be3-923a-00798667767c" />
+
+  The chart displays the number of transactions across different product categories. Fruits and Household items had the highest sales with 58 and 57 transactions, while Personal Care products had the lowest with 42 transactions. This suggests that customers purchase essential items more frequently than personal care products.
+
