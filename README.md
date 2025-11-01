@@ -39,24 +39,24 @@ I use Powery Query to check missing values and remove duplicate values
     
   There are 3 null values. In this column, I will check if the "member" value or the "normal" value appears more often to place the null value.
       
-    <img width="167" height="92" alt="image" src="https://github.com/user-attachments/assets/b6064099-c7d5-4053-8b08-ba35f1b3d932" />
+<img width="167" height="92" alt="image" src="https://github.com/user-attachments/assets/b6064099-c7d5-4053-8b08-ba35f1b3d932" />
 
    2.2. product_category
    
   There are 6 null values.
       
-    <img width="173" height="164" alt="image" src="https://github.com/user-attachments/assets/90b8f3f3-4a83-4ffe-8650-639b249adad6" />
+<img width="173" height="164" alt="image" src="https://github.com/user-attachments/assets/90b8f3f3-4a83-4ffe-8650-639b249adad6" />
 
   In this column, I will create a new sheet "Mapping", which includes 2 columns: "product_name" and "product_category". After that, I use Power Query to merge the Sheet "Sale" with the sheet "Mapping" through the primary key "product_name" => the null value will be       replaced by the corresponding value.
 
-    <img width="303" height="153" alt="image" src="https://github.com/user-attachments/assets/f1899559-aab9-4e09-94ae-bc621efd4ec9" />
-    <img width="1081" height="377" alt="image" src="https://github.com/user-attachments/assets/50f53416-fde5-4118-acf5-bd02e55db1b2" />
+<img width="303" height="153" alt="image" src="https://github.com/user-attachments/assets/f1899559-aab9-4e09-94ae-bc621efd4ec9" />
+<img width="1081" height="377" alt="image" src="https://github.com/user-attachments/assets/50f53416-fde5-4118-acf5-bd02e55db1b2" />
 
    2.3. quantity
   
   There are 3 null values. In this column, I use the median function (median = 11 )to fill in these 2 cells.
       
-     <img width="162" height="90" alt="image" src="https://github.com/user-attachments/assets/b6ab2b84-0acd-4b11-a74b-28a5888564ab" />
+<img width="162" height="90" alt="image" src="https://github.com/user-attachments/assets/b6ab2b84-0acd-4b11-a74b-28a5888564ab" />
         
 Data cleaning was conducted using Power Query in Microsoft Excel to ensure the dataset’s accuracy, completeness, and consistency before performing any analysis. The original dataset contained 12 missing values and 3 duplicate rows. Power Query provided a transparent and traceable workflow that effectively addressed these data quality issues.
           
@@ -74,13 +74,13 @@ For the Total Price variable, the average sales value per transaction was $124.1
 
   Chart 1: Number of Transactions by Customer Type
 
-    <img width="490" height="314" alt="image" src="https://github.com/user-attachments/assets/0f17eb72-402e-48d3-99cd-a0998dd8ccee" />
+<img width="490" height="314" alt="image" src="https://github.com/user-attachments/assets/0f17eb72-402e-48d3-99cd-a0998dd8ccee" />
 
   The chart shows the number of sales transactions made by each customer type. Members recorded 134 transactions, higher than Normal customers with 116 transactions. This indicates that members contribute more actively to the supermarket’s overall sales volume.
 
   Chart 2: Number of Transactions by Product Category
 
-    <img width="479" height="306" alt="image" src="https://github.com/user-attachments/assets/fb0eb01d-0919-4be3-923a-00798667767c" />
+ <img width="479" height="306" alt="image" src="https://github.com/user-attachments/assets/fb0eb01d-0919-4be3-923a-00798667767c" />
 
   The chart shows the number of sales transactions across different product categories. Fruits recorded the highest number of sales (58), followed closely by Household items (57) and Beverages (49). In contrast, Personal Care products had the fewest transactions (42).
   This pattern suggests that everyday consumer goods such as fruits and household products, are the most frequently purchased items in the supermarket.
