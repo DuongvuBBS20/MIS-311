@@ -50,6 +50,7 @@ I use Powery Query to check missing values and remove duplicate values
   In this column, I will create a new sheet "Mapping", which includes 2 columns: "product_name" and "product_category". After that, I use Power Query to merge the Sheet "Sale" with the sheet "Mapping" through the primary key "product_name" => the null value will be       replaced by the corresponding value.
 
 <img width="303" height="153" alt="image" src="https://github.com/user-attachments/assets/f1899559-aab9-4e09-94ae-bc621efd4ec9" />
+
 <img width="1081" height="377" alt="image" src="https://github.com/user-attachments/assets/50f53416-fde5-4118-acf5-bd02e55db1b2" />
 
    2.3. quantity
@@ -57,6 +58,7 @@ I use Powery Query to check missing values and remove duplicate values
   There are 3 null values. In this column, I use the median function (median = 11 )to fill in these 2 cells.
       
 <img width="162" height="90" alt="image" src="https://github.com/user-attachments/assets/b6ab2b84-0acd-4b11-a74b-28a5888564ab" />
+
         
 Data cleaning was conducted using Power Query in Microsoft Excel to ensure the dataset’s accuracy, completeness, and consistency before performing any analysis. The original dataset contained 12 missing values and 3 duplicate rows. Power Query provided a transparent and traceable workflow that effectively addressed these data quality issues.
           
