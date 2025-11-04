@@ -70,16 +70,16 @@ All cleaning steps were automatically documented in Power Query’s Applied Step
 
   <img width="480" height="323" alt="image" src="https://github.com/user-attachments/assets/b3823151-7c52-4c9a-9ebe-81f62fb44c3d" />
 
-     The results show that customers purchased an average of 10.62 items per transaction, with most buying between 10 and 11 items, indicating a relatively consistent shopping pattern. The average total spending per transaction was $124.19. Still, the large standard deviation of 102.98 and the maximum of $427.14 reveal substantial variation in spending behavior. At the same time, most customers make moderate purchases, a small group of high-spending customers considerably raises total revenue. This suggests an opportunity for the business to identify and engage these premium buyers to increase profitability, while still maintaining the stable base of regular shoppers.
+The results show that customers purchased an average of 10.62 items per transaction, with most buying between 10 and 11 items, indicating a relatively consistent shopping pattern. The average total spending per transaction was $124.19. Still, the large standard deviation of 102.98 and the maximum of $427.14 reveal substantial variation in spending behavior. At the same time, most customers make moderate purchases, a small group of high-spending customers considerably raises total revenue. This suggests an opportunity for the business to identify and engage these premium buyers to increase profitability, while still maintaining the stable base of regular shoppers.
 
 ***Chart 1: Number of Transactions by Customer Type***
 
 <img width="490" height="314" alt="image" src="https://github.com/user-attachments/assets/0f17eb72-402e-48d3-99cd-a0998dd8ccee" />
 
-     Member customers completed 134 transactions compared to 116 from normal customers, indicating that members return to shop more frequently. This suggests that the membership program is effectively supporting repeat purchasing and ongoing customer engagement. Based on this, the company should continue promoting membership enrollment and refine loyalty incentives, such as point-based rewards to further strengthen retention.
+Member customers completed 134 transactions compared to 116 from normal customers, indicating that members return to shop more frequently. This suggests that the membership program is effectively supporting repeat purchasing and ongoing customer engagement. Based on this, the company should continue promoting membership enrollment and refine loyalty incentives, such as point-based rewards to further strengthen retention.
  
 ***Chart 2: Number of Transactions by Product Category***
 
  <img width="479" height="306" alt="image" src="https://github.com/user-attachments/assets/fb0eb01d-0919-4be3-923a-00798667767c" />
 
-     The chart shows that Fruits and Household items have the highest number of transactions, indicating that these are frequently purchased essential categories. Meanwhile, categories Personal Care and Stationery have lower transaction counts, suggesting less frequent buying behavior. This insight can help manager focus on maintaining strong stock levels for high-demand categories, while using targeted promotions to encourage purchases in lower-demand categories.
+The chart shows that Fruits and Household items have the highest number of transactions, indicating that these are frequently purchased essential categories. Meanwhile, categories Personal Care and Stationery have lower transaction counts, suggesting less frequent buying behavior. This insight can help manager focus on maintaining strong stock levels for high-demand categories, while using targeted promotions to encourage purchases in lower-demand categories.
