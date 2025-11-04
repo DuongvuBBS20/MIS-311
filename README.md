@@ -6,7 +6,7 @@ MIS311 – Data Analysis Project
 
 **1. Data Overview**
 
-     The Supermarket Sale dataset contains detailed transaction records from a retail supermarket chain operating across multiple branches and cities. Each entry represents an individual purchase and includes information such as the branch, city, customer type, product name, product category, quantity purchased, and total sales amount in USD.
+The Supermarket Sale dataset contains detailed transaction records from a retail supermarket chain operating across multiple branches and cities. Each entry represents an individual purchase and includes information such as the branch, city, customer type, product name, product category, quantity purchased, and total sales amount in USD.
      
       •	Sale_id (object): Unique identifier
       
