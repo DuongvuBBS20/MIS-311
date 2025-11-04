@@ -78,12 +78,10 @@ For the Total Price variable, the average sales value per transaction was $124.1
 
 <img width="490" height="314" alt="image" src="https://github.com/user-attachments/assets/0f17eb72-402e-48d3-99cd-a0998dd8ccee" />
 
-  The chart shows the number of sales transactions made by each customer type. Members recorded 134 transactions, higher than Normal customers with 116 transactions. This indicates that members contribute more actively to the supermarket’s overall sales volume.
-
+ Member customers completed 134 transactions compared to 116 from normal customers, indicating that members return to shop more frequently. This suggests that the membership program is effectively supporting repeat purchasing and ongoing customer engagement. Based on this, the store should continue promoting membership enrollment and refine loyalty incentives, such as point-based rewards to further strengthen retention.
+ 
   Chart 2: Number of Transactions by Product Category
 
  <img width="479" height="306" alt="image" src="https://github.com/user-attachments/assets/fb0eb01d-0919-4be3-923a-00798667767c" />
 
-  The chart shows the number of sales transactions across different product categories. Fruits recorded the highest number of sales (58), followed closely by Household items (57) and Beverages (49). In contrast, Personal Care products had the fewest transactions (42).
-  This pattern suggests that everyday consumer goods such as fruits and household products, are the most frequently purchased items in the supermarket.
-
+  The chart shows that Fruits and Household items have the highest number of transactions, indicating that these are frequently purchased essential categories. Meanwhile, categories like Personal Care and Beverages have lower transaction counts, suggesting less frequent buying behavior. This insight can help store management focus on maintaining strong stock levels for high-demand categories, while using targeted promotions to encourage purchases in lower-demand categories.
