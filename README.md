@@ -4,7 +4,7 @@ MIS311 – Data Analysis Project
 **Student:** Vu Dong Duong  
 **University:** Eastern International University
 
-1. Data Overview
+**1. Data Overview**
 
 The Supermarket Sale dataset contains detailed transaction records from a retail supermarket chain operating across multiple branches and cities. Each entry represents an individual purchase and includes information such as the branch, city, customer type, product name, product category, quantity purchased, and total sales amount in USD.
      
@@ -31,17 +31,17 @@ The dataset comprises 253 rows and 8 columns, featuring both categorical variabl
 
 This dataset was chosen because it illustrates how businesses can use data analytics to uncover patterns in sales performance, identify profitable customer segments, and support data-driven decisions in marketing and inventory management.
 
-2. Data Cleaning
+**2. Data Cleaning**
 
 I use Powery Query to check missing values and remove duplicate values
    
-   2.1. customer_type
+   **2.1. customer_type**
     
   There are 3 null values. In this column, I will check if the "member" value or the "normal" value appears more often to place the null value.
       
 <img width="167" height="92" alt="image" src="https://github.com/user-attachments/assets/b6064099-c7d5-4053-8b08-ba35f1b3d932" />
 
-   2.2. product_category
+   **2.2. product_category**
    
   There are 6 null values.
       
@@ -53,7 +53,7 @@ I use Powery Query to check missing values and remove duplicate values
 
 <img width="1081" height="377" alt="image" src="https://github.com/user-attachments/assets/50f53416-fde5-4118-acf5-bd02e55db1b2" />
 
-   2.3. quantity
+   **2.3. quantity**
   
   There are 3 null values. In this column, I use the median function (median = 11 )to fill in these 2 cells.
       
@@ -66,19 +66,19 @@ First, duplicate records were removed using the Remove Duplicates function, ensu
     
 All cleaning steps were automatically documented in Power Query’s Applied Steps pane, providing a transparent audit trail of the transformations. After cleaning, the dataset contained no missing or duplicate entries.
 
-3. Descriptive Statistics
+**3. Descriptive Statistics**
 
   <img width="480" height="323" alt="image" src="https://github.com/user-attachments/assets/b3823151-7c52-4c9a-9ebe-81f62fb44c3d" />
 
 The results show that customers purchased an average of 10.62 items per transaction, with most buying between 10 and 11 items, indicating a relatively consistent shopping pattern. The average total spending per transaction was $124.19. Still, the large standard deviation of 102.98 and the maximum of $427.14 reveal substantial variation in spending behavior. At the same time, most customers make moderate purchases, a small group of high-spending customers considerably raises total revenue. This suggests an opportunity for the business to identify and engage these premium buyers to increase profitability, while still maintaining the stable base of regular shoppers.
 
-     Chart 1: Number of Transactions by Customer Type
+***Chart 1: Number of Transactions by Customer Type***
 
 <img width="490" height="314" alt="image" src="https://github.com/user-attachments/assets/0f17eb72-402e-48d3-99cd-a0998dd8ccee" />
 
  Member customers completed 134 transactions compared to 116 from normal customers, indicating that members return to shop more frequently. This suggests that the membership program is effectively supporting repeat purchasing and ongoing customer engagement. Based on this, the company should continue promoting membership enrollment and refine loyalty incentives, such as point-based rewards to further strengthen retention.
  
-     Chart 2: Number of Transactions by Product Category
+***Chart 2: Number of Transactions by Product Category***
 
  <img width="479" height="306" alt="image" src="https://github.com/user-attachments/assets/fb0eb01d-0919-4be3-923a-00798667767c" />
 
