@@ -24,7 +24,7 @@ MIS311 – Data Analysis Project
       
       •	Total_price (float64): amount of sales in USD
 
-     The dataset comprises 253 rows and 8 columns, featuring both categorical variables (branch, city, customer_type, product_category) and numerical variables (quantity, total_price). This combination offers a clear and practical perspective on day-to-day retail operations and customer spending behaviors, making the dataset ideal for exploratory data analysis within a business analytics context.
+The dataset comprises 253 rows and 8 columns, featuring both categorical variables (branch, city, customer_type, product_category) and numerical variables (quantity, total_price). This combination offers a clear and practical perspective on day-to-day retail operations and customer spending behaviors, making the dataset ideal for exploratory data analysis within a business analytics context.
 
   <img width="649" height="101" alt="image" src="https://github.com/user-attachments/assets/0d1731b5-7067-481a-bc42-c0b1382c97bc" />
   <img width="649" height="108" alt="image" src="https://github.com/user-attachments/assets/82f1b4d7-d90b-4b53-a77d-06af857aaaca" />
